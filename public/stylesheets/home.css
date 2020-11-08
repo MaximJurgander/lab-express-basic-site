@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0b1212;
+}
+
+header {
+  height: 100vh;
+  text-align: center;
+  background-color: #0b1212;
+}
+
+.slash-name {
+  font-size: 60px;
+  padding-top: 10px;
+  font-family: 'Source Code Pro', monospace;
+  color: #ddd;
+}
+
+nav ul {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+nav p {
+  color: #fff;
+  size: 24px;
+}
+
+.slash {
+  color: #fff;
+  font-size: 20px;
+}
+
+li {
+  margin: 20px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+img {
+  width: 100%;
+  height: 70%;
+}
+
+.fea-work {
+  text-align: center;
+}
+
+.work {
+  height: 95vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.work img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.work li {
+  color: #fff;
+  text-align: left;
+  font-size: 1.2em;
+}
+
+.about {
+  margin-top: 10px;
+  height: 100vh;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.main-text {
+  margin-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #fff;
+}
+
+.about p {
+  text-align: left;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 20px;
+  color: #fff;
+}
+
+.about h1 {
+  margin-bottom: 30px;
+}
+
+.gallery {
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.gallery img {
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+}
